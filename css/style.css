@@ -442,6 +442,8 @@ input[type="search"] {
     margin-bottom: 5px;
 }
 
+/*** Activités ***/
+
 .activités-à-marseille{
     display: flex;
     flex-direction: column;
