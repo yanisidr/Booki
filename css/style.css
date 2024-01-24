@@ -1,4 +1,4 @@
-/****** General ***********/
+/****** General **********/
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -316,7 +316,7 @@ input[type="search"] {
     gap: 10px; 
 }
 
-/****** Hebergements And Populaires ***********/
+/****** Hebergements et Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
