@@ -690,12 +690,14 @@ input[type="search"] {
     .icon_infobar{
         flex-shrink: 0;
     }
+   
+
     .Filtres{
-        display: flex;
-        flex-wrap: wrap;
-        flex: 1;
+        display: grid;
+        grid-template-columns : 1fr 1fr;
         column-gap: 10px;
         row-gap: 20px;
+        width: 100%;
     }
 
     .Filter{
@@ -771,4 +773,12 @@ input[type="search"] {
       .mobile{
         display: inherit;
       }
+
 }
+
+@media screen and (min-width: 1440px) {
+    body {
+        padding: 0 calc((100% - 1440px) / 2);
+    }
+}
+
